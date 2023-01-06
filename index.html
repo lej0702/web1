@@ -1,17 +1,64 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>WEB1 - Welcome</title>
-<meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023 신년계획 버킷리스트</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+        * {
+            font-family: 'Gowun Batang', serif;
+        }
+        .title {
+            color: white;
+            background-color: tomato;
+            font-size: 24px;
+            padding: 4px 14px;
+            border-radius: 8px;
+        }
+
+        .bg {
+            width: 360px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+        }
+
+        .msg {
+            font-weight: bold;
+        }
+
+        .bucket {
+            width: 160px;
+            height: 160px;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
 </head>
-<body>
-  <h1><a href="index.html">WEB</a></h1>
-<ol>
-  <li><a href="1.html">HTML</a></li>
-  <li><a href="2.html">CSS</a></li>
-  <li><a href="3.html">JavaScript</a></li>
-</ol>
-<h2>WEB</h2>
-<p>The World Wide Web (abbreviated WWW or the Web) is an information spacce where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and can be accessed via the Internet. [1] English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web brower computer program in 1990 while employed at CERN in Switzerland. [2] [3] The Web browser was released outside of CERN in 1991, first to other research institutions starting in Janary 1991 and to the general public on the Internet in August 1991.</p>
+
+<body class="bg center">
+    <h1 class="title">2023년 신년계획</h1>
+    <p class="msg">계묘년 화이팅!</p>
+    <div class="row flex-row wrap">
+        <div class="bucket img1-t2 center">스파르타 강의 완강</div>
+        <div class="bucket img2 center">마케터로 이직하기</div>
+        <div class="bucket img2-t2 center">자취 시작하기</div>
+        <div class="bucket img1 center">제 2외국어 배우기</div>
+        <div class="bucket img1-t2 center">혼자/같이 여행가기</div>
+        <div class="bucket img2 center">운동 시작하기</div>
+    </div>
 </body>
+
 </html>
